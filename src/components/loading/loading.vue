@@ -10,19 +10,9 @@
 </template>
 
 <script lang="ts">
-  import { Loading } from 'vant'
   import { ref } from 'vue'
 
   export default {
-    components: {
-      [Loading.name]: Loading
-    },
-    props: {
-      isLoading: {
-        type: Boolean,
-        default: false
-      }
-    },
     setup() {
       const loading = ref<boolean>(false)
       const show = () => {
@@ -31,11 +21,7 @@
       const hide = () => {
         loading.value = false
       }
-      return {
-        loading,
-        show,
-        hide
-      }
+      return { loading, show, hide }
     }
   }
 </script>
