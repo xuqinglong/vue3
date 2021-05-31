@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+}
+#app {
+  font-family: lanting;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+.van-button--mini{
+  padding: 2px 10px;
+}
+::-webkit-scrollbar {
+     width: 6px;
+   }
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(80,80,80,0.2);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(80,80,80,.5);
+  box-shadow: inset 0 0 6px rgba(80,80,80,.5);
+  background-color: rgba(80,80,80,.5);
+}
